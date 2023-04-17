@@ -1,0 +1,258 @@
+.navbar {
+    position: relative;
+    z-index: 1;
+    border-bottom: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+ 
+  .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  
+  .navbar-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/fondo.jpg');
+    background-size: 18% auto;
+    background-repeat: repeat-x;
+   height: 50px;
+   
+    z-index: -1;
+   
+  }
+.contenedor{
+
+  margin-top:80px;
+}
+  
+  .tarjeta{
+    width: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .cuerpo img{
+    width: auto;
+    height: 177px;
+  }
+  #tres img {
+    width: 512px;
+  }
+  img#dos,img#uno,img#tres{
+    width: auto;
+    height: 177px;
+  }
+  .col-md-12 {
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: black;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px -30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    color: white;
+    text-align: center;
+  }
+  .formulario1{
+    background-color: #222016;
+    border-radius: 10px;
+    width: 454px;
+    margin: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+   
+  }
+  .formulario2{
+    background-color: #222016;
+    border-radius: 10px;
+    width: 454px;
+    margin: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+   
+  }
+  
+  .formulario1 label {
+    color: #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .formulario1 h2 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .formulario2 label {
+    color: #ffffff;
+    padding-bottom: 5px;
+  }
+  
+  .formulario2 h2 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h1.titulo{
+    font-size: 55px;
+    color: #808080;
+    margin-bottom: -10px;
+    margin-top: 11px;
+  }
+  
+  .titulo{
+    margin-bottom: 20px;
+  }
+  
+  
+  .linea {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 15px;
+  }
+
+
+  .img-size{
+    /* 	padding: 0;
+      margin: 0; */
+      height: 450px;
+      width: 770px;
+      background-size: cover;
+      overflow: hidden;
+    }
+    .modal-content {
+       width: 700px;
+      border:none;
+    }
+    .modal-body {
+       padding: 0;
+    }
+    
+    .carousel-control-prev-icono {
+      background-image: url(../img/izquierda.png);
+   
+      width: 55px;
+      height: 48px;
+    }
+    .carousel-control-next-icono {
+      background-image: url(../img/derecha.png);
+      width: 55px;
+      height: 48px;
+    }
+
+    h5{
+      text-align: center;
+      font-size: 24px !important;
+      font-weight: 600;
+    }
+
+  @media (max-width: 1300px){
+
+    .formulario1{
+      background-color: #222016;
+      border-radius: 10px;
+      width: 554px;
+      margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+     
+    }
+    .formulario2{
+      background-color: #222016;
+      border-radius: 10px;
+      width: 554px;
+      margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+     
+    }
+
+
+
+
+
+  }
+
+  @media (max-width:992px){
+
+    .formulario1{
+      background-color: #222016;
+      border-radius: 10px;
+      width: 554px;
+      margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+     
+    }
+    .formulario2{
+      background-color: #222016;
+      border-radius: 10px;
+      width: 554px;
+      margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+     
+    }
+  }
+
+  @media (max-width:768px){
+    .formulario1{
+      
+     
+    }
+    .formulario2{
+      
+     
+    }
+  }
+
+  @media (max-width:576px){
+    .formulario1{
+      
+     
+    }
+    .formulario2{
+     
+     
+    }
+  }
